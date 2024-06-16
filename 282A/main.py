@@ -1,0 +1,1 @@
+print(sum([1 if "+" in op else -1 for op in [input() for _ in range(int(input()))]]))
